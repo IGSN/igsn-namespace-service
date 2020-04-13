@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+rope = "*"
+uvicorn = "*"
+black = "*"
+pytest = "*"  # workaround for pytest-flake8
+pytest-mypy = "*"
+mypy = "*"
+flake8 = "*"
+pytest-flake8 = "*"
+pytest-coverage = "*"
+
+[packages]
+fastapi = "*"
+lxml = "*"
+requests = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
